@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "256588561737",
+    "firebase_url": "https://finallogin-23535-default-rtdb.firebaseio.com",
+    "project_id": "finallogin-23535",
+    "storage_bucket": "finallogin-23535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256588561737:android:599cb7321054ec6557ee98",
+        "android_client_info": {
+          "package_name": "com.example.finallogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256588561737-hmrvgisnl78td1ndttda0e00ubduq1ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finallogin",
+            "certificate_hash": "04493c596823e58df9d0024f9cdf9b16c12a8b7e"
+          }
+        },
+        {
+          "client_id": "256588561737-d46nlt7d24n9void8fhr1om755rlsot0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqJcXtlallnGurTeZn5GP74PzLvq4Nm4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256588561737-d46nlt7d24n9void8fhr1om755rlsot0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

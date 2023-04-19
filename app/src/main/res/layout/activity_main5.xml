@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beautiful"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imgGallery2"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="131dp"
+        android:layout_marginBottom="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/split_imageI"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="4dp"-->
+    <!--        android:backgroundTint="@color/grey"-->
+    <!--        android:text="Split Image" />-->
+
+
+    <SlidingDrawer
+        android:id="@+id/split_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:content="@+id/split_numbers"
+
+        android:handle="@+id/split_image"
+        android:topOffset="230dip">
+
+        <Button
+            android:id="@id/split_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/Tomato"
+
+
+            android:text="Split Image" />
+
+        <LinearLayout
+            android:id="@id/split_numbers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+
+
+                android:text="3*3" />
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:clickable="true"
+                android:text="4*4" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:clickable="true"
+                android:text="5*5" />
+
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>
